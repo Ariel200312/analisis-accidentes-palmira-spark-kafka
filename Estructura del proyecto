@@ -1,0 +1,19 @@
+analisis-accidentes-palmira-spark-kafka/
+│
+├── data/
+│
+├── batch/
+│
+├── streaming/
+│
+├── graficas/
+│
+├── evidencias/
+│
+├── docs/
+│
+├── README.md
+│
+├── requirements.txt
+│
+└── .gitignore
