@@ -1,0 +1,62 @@
+Análisis de Accidentes Viales en Palmira usando Apache Spark y Apache Kafka
+Descripción
+Proyecto académico desarrollado para aplicar tecnologías Big Data mediante Apache Spark y Apache Kafka.
+
+El proyecto implementa:
+
+Procesamiento Batch de datos históricos.
+Procesamiento Streaming en tiempo real.
+Limpieza y transformación de datos.
+Análisis estadístico.
+Visualización de resultados.
+Dataset
+Conjunto de datos públicos de accidentes de tránsito en Palmira.
+
+Total de registros analizados:
+
+802 registros
+
+Tecnologías utilizadas
+Apache Spark
+Apache Kafka
+Python
+Pandas
+Matplotlib
+Ubuntu Linux
+Análisis de accidentes por día de la semana
+Día	Accidentes
+Lunes	110
+Martes	113
+Miércoles	119
+Jueves	117
+Viernes	132
+Sábado	116
+Domingo	95
+Hallazgos
+✅ Día con mayor accidentalidad:
+
+Viernes (132 accidentes)
+
+✅ Día con menor accidentalidad:
+
+Domingo (95 accidentes)
+
+Procesamiento Batch
+Lectura del dataset CSV.
+Eliminación de duplicados.
+Tratamiento de datos nulos.
+Agrupación por día de la semana.
+Generación de gráficos estadísticos.
+Procesamiento Streaming
+Creación de tópico Kafka.
+Envío de eventos en tiempo real.
+Consumo mediante Spark Streaming.
+Conteo de eventos.
+Visualización en consola.
+Resultados
+El análisis permitió identificar una mayor concentración de accidentes durante los días viernes, mientras que el domingo presentó la menor cantidad de eventos registrados.
+
+Autor
+Ariel Sebastián Ortiz Marentes
+
+Universidad Nacional Abierta y a Distancia (UNAD)
